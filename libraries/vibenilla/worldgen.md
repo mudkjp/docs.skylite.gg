@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-    implementation("rocks.minestom:worldgen:2026.08.28-26.2")
+    implementation("rocks.minestom:worldgen:2026.10.13-26.3")
 }
 ```
 
@@ -28,7 +28,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'rocks.minestom:worldgen:2026.08.28-26.2'
+    implementation 'rocks.minestom:worldgen:2026.10.13-26.3'
 }
 ```
 
@@ -44,7 +44,7 @@ dependencies {
     <dependency>
         <groupId>rocks.minestom</groupId>
         <artifactId>worldgen</artifactId>
-        <version>2026.08.28-26.2</version>
+        <version>2026.10.13-26.3</version>
     </dependency>
 </dependencies>
 ```
