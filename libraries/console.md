@@ -1,6 +1,6 @@
 # Minestom Console
 
-JLine integration for Minestom with syntax highlighting and auto-completion.
+JLine integration for Minestom with syntax highlighting and auto-completion
 
 ## Installation
 
@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    implementation("gg.skylite:console:2026.08.29-26.2")
+    implementation("gg.skylite:console:2026.11.15-26.3")
 }
 ```
 
@@ -24,7 +24,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'gg.skylite:console:2026.08.29-26.2'
+    implementation 'gg.skylite:console:2026.11.15-26.3'
 }
 ```
 
@@ -40,7 +40,7 @@ dependencies {
     <dependency>
         <groupId>gg.skylite</groupId>
         <artifactId>console</artifactId>
-        <version>2026.08.29-26.2</version>
+        <version>2026.11.15-26.3</version>
     </dependency>
 </dependencies>
 ```
