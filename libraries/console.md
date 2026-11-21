@@ -46,3 +46,41 @@ dependencies {
 ```
 
 :::
+
+## Usage
+
+::: code-group
+
+```java [Java]
+import gg.skylite.console.Console;
+import net.minestom.server.MinecraftServer;
+
+import java.io.IOException;
+
+void main() throws IOException {
+    var server = MinecraftServer.init();
+
+    var console = Console.builder().build();
+    console.start();
+    Runtime.getRuntime().addShutdownHook(new Thread(console::close));
+
+    server.start("0.0.0.0", 25565);
+}
+```
+
+```kotlin [Kotlin]
+import gg.skylite.console.Console
+import net.minestom.server.MinecraftServer
+
+fun main() {
+    val server = MinecraftServer.init()
+
+    val console = Console.builder().build()
+    console.start()
+    Runtime.getRuntime().addShutdownHook(Thread(console::close))
+
+    server.start("0.0.0.0", 25565)
+}
+```
+
+:::

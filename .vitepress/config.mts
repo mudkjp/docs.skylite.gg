@@ -46,6 +46,10 @@ config.themeConfig.sidebar = [
                 link: "/libraries/thunder",
             },
             {
+                text: "Minestom Console",
+                link: "/libraries/console",
+            },
+            {
                 text: "Vibenilla",
                 link: "/libraries/vibenilla",
                 items: [
